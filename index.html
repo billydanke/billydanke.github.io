@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+    <div id="sideBar">
+      <h1 class="topHeader">Info Panel</h1>
+
+      <label for="population">Population: </label>
+      <p id="population" class="infoText">???</p><br>
+
+      <label for="probes">Probe Count: </label>
+      <p id="probes" class="infoText">???</p><br>
+
+      <hr>
+
+      <strong><h4 style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px">System Diagnostics:</h4></strong>
+
+      <label for="pscanner">Surface Scanner</label>
+      <meter id="pscanner" min="0" max="100" low="33" high="66" optimum="80" value="0"></meter>
+
+      <label for="moisture">Atmospheric Moisture Sensor</label>
+      <meter id="moisture" min="0" max="100" low="33" high="66" optimum="80" value="0"></meter>
+
+      <label for="atmosphere">Atmospheric Composition Sensor</label>
+      <meter id="atmosphere" min="0" max="100" low="33" high="66" optimum="80" value="0"></meter>
+
+      <label for="hull">Hull Integrity</label>
+      <meter id="hull" min="0" max="100" low="33" high="66" optimum="80" value="0"></meter>
+
+      <label for="propulsion">Propulsion System</label>
+      <meter id="propulsion" min="0" max="100" low="33" high="66" optimum="80" value="0"></meter>
+
+      <label for="electric">Electrical Systems</label>
+      <meter id="electric" min="0" max="100" low="33" high="66" optimum="80" value="0"></meter>
+
+    </div>
+    <canvas id='main'></canvas>
+
+    <div id="bottomBar">
+      <h1 class="topHeader">Mission Console</h1>
+
+      <div id="console"><p id="consoleText"></p></div>
+      <span id="responseBar"><button>Test</button></span>
+    </div>
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

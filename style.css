@@ -1,0 +1,83 @@
+html,body {
+  margin:0;
+  padding:0;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+#sideBar {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 300px;
+  height: 400px;
+  background: rgb(12,38,78);
+  background: radial-gradient(circle, rgba(12,38,78,1) 0%, rgba(15,26,38,1) 100%);
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+#bottomBar {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 99.5vw;
+  height: 165px;
+  background: rgb(12,38,78);
+  background: radial-gradient(circle, rgba(12,38,78,1) 0%, rgba(15,26,38,1) 100%);
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+  border-color: white;
+  color: white
+}
+
+h1.topHeader {
+  margin:0;
+  padding:0;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+label {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+meter {
+  width: 80%;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.infoText {
+  display: inline;
+}
+
+#console {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  height:80px;
+  width:98%;
+  border:1px solid #ccc;
+  overflow:auto;
+}
+
+#consoleText {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#responseBar {
+  margin-left: 10px;
+  border: solid 1px;
+}
+
+canvas {
+  background: black;
