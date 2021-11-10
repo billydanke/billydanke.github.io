@@ -413,7 +413,7 @@ function gameOver(endType) {
   console.log("game over");
 
   if(endType == "success") {
-    writingQueue.push("Congradulations! To replay, just refresh the page.");
+    writingQueue.push("Congratulations! To replay, just refresh the page.");
   }
   else if(endType == "crash") {
     writingQueue.push("Game Over! To replay, just refresh the page.");
@@ -423,7 +423,7 @@ function gameOver(endType) {
     consoleText.innerHTML = "";
     responseBar.innerHTML = "";
     writingQueue.push("Your ship sputters on for a time, the AI working to find any resemblance of a home for humanity. However, no one can cheat time. As the fuel runs low, the powerbanks run dry, and cosmic rays slowly degrade the AI's mind, the cryo-pods begin to fail, thawing the remaining colonists. the AI, in all its pickiness, has failed its mission, and humanity is doomed to die alone in the endless depths of space.");
-    writingQueue.push("Game Over! Congradulations on somehow making it to the hardest ending of the game. To replay, just refresh the page.");
+    writingQueue.push("Game Over! Congratulations on somehow making it to the hardest ending of the game. To replay, just refresh the page.");
   }
   else if(endType == "hull") {
     writingQueue = [];
