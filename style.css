@@ -67,6 +67,8 @@ meter {
   width:98%;
   border:1px solid #ccc;
   overflow:auto;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 #consoleText {
@@ -81,3 +83,4 @@ meter {
 
 canvas {
   background: black;
+}
